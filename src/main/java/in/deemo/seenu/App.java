@@ -8,6 +8,7 @@ public class App {
 		// TODO Auto-generated method stub
 		UserService userservice = new UserService();
 		
+		userservice.create();
 		userservice.getAll();
 
 	}
